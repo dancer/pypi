@@ -7,13 +7,13 @@ check and claim available package names on pypi
 check available names
 
 ```bash
-uv run --with httpx check.py
+uv run --with httpx src/check.py
 ```
 
 claim all available names from available.txt
 
 ```bash
-uv run claim.py
+uv run src/claim.py
 ```
 
 ## setup
